@@ -1,13 +1,13 @@
 # OsuCursorChanger
-Osu!の好きなスキンでいろいろなカーソルとヒットサウンドを簡単に変えることができるバッチファイル。
+Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡単に変えることができるバッチファイル。
 
-## ・ダウンロード
+# ・ダウンロード
 [ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/OsuCursorChanger-v1.0.0-release.zip)からダウンロードして、任意のスキンフォルダにScriptsフォルダを配置することですぐに使い始めることができます。
 
-## ・使い方
+# ・使い方
 1.zipファイルを[ダウンロード](#ダウンロード)して解凍する。
 
-2.中身のScriptsフォルダを任意のスキンフォルダに配置する。
+2.中身のScriptsフォルダを任意のスキンフォルダに配置する。(複数のスキンでカーソルやヒットサウンドを変更したい場合、それぞれにScriptsフォルダを配置してください。)
 
 3-1.スキンフォルダに<strong>Cursors</strong>フォルダを作成し、その中にカーソルごとのフォルダを作成し入れる。(カーソルの入ったフォルダの作り方は[後述](#カーソルヒットサウンドを抽出したフォルダの作り方))
 
@@ -43,12 +43,24 @@ osu!
         ...
 ```
 
-## ・カーソル/ヒットサウンドを抽出したフォルダの作り方
+# ・カーソル/ヒットサウンドを抽出したフォルダの作り方
 1. 解凍したzipファイルの中にあるMakeScriptsフォルダをカーソルやヒットサウンドを抽出したいスキンフォルダに配置する。
 2. MakeScriptsフォルダ内のmakeCursorExample.batかmakeHitSoundExample.batを実行すると、カーソルやヒットサウンドが抽出されたフォルダがスキンフォルダ内に作成(CursorExample又はHitSoundExampleフォルダ)される。
 3. 作成されたフォルダをCursorsフォルダ又はHitSoundsフォルダ内に配置して任意の名前を変更する。
 4. makeScriptsフォルダを削除する。
 
-## ・カーソルとヒットサウンドのダウンロード
+# ・カーソルとヒットサウンドのダウンロード
 カーソルとヒットサウンドをいくつか用意しました。
 カーソルは[ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/Cursors.zip)、ヒットサウンドは[ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/HitSounds.zip)からダウンロードできます。
+
+# ・Q＆A
+### Q.DefaultCursorBackupやDefaultHitSoundBackupって何?
+### A.変更する前の元のカーソルやヒットサウンドが残してあるため消さないでください。
+<br>
+
+### Q.スキンを元の状態に戻すには?
+### A.バッチファイルを開いて'0'を入力して決定すると、元のカーソルやヒットサウンドが適用されます。又は、DefaultCursorBackupやDefaultHitSoundBackupというフォルダに元のカーソルやヒットサウンドが残してあります。
+<br>
+
+### Q.カーソルやヒットサウンドが変更されてない
+### A.CursorsフォルダやHitSoundsフォルダの名前が間違っていると正しく変更されません。末尾の"s"を忘れていないかなど確認してください。
