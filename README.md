@@ -30,11 +30,11 @@ osu!
         |   |---Cursor2
         |   ...
         |---HitSounds # 自分で作成。ここにヒットサウンドを入れたフォルダを入れていく
-        |   |---HitSounds1
+        |   |---HitSound1
         |   |   |---drum-hitclap.wav
         |   |   |---drum-hitfinish.wav
         |   |   ...
-        |   |---HitSounds2
+        |   |---HitSound2
         |   ...
         |---Scripts
         |   |---hitsounds.list # DO NOT CHANGE
