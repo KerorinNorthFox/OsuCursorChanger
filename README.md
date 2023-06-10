@@ -43,6 +43,10 @@ osu!
         ...
 ```
 
+https://github.com/KerorinNorthFox/OsuCursorChanger/assets/66837061/5eb21573-34d7-4a01-923b-99324a309ba0
+
+
+
 # ・カーソル/ヒットサウンドを抽出したフォルダの作り方
 1. 解凍したzipファイルの中にあるMakeScriptsフォルダをカーソルやヒットサウンドを抽出したいスキンフォルダに配置する。
 2. MakeScriptsフォルダ内のmakeCursorExample.batかmakeHitSoundExample.batを実行すると、カーソルやヒットサウンドが抽出されたフォルダがスキンフォルダ内に作成(CursorExample又はHitSoundExampleフォルダ)される。
