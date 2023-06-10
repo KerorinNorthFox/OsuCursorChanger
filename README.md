@@ -5,6 +5,8 @@ Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡�
 [ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/OsuCursorChanger-v1.0.2-release.zip)からダウンロードして、任意のスキンフォルダにScriptsフォルダを配置することですぐに使い始めることができます。
 
 # ・使い方
+※下の動画を参考にしてフォルダを配置してください
+
 1.zipファイルを[ダウンロード](#ダウンロード)して解凍する。
 
 2.中身のScriptsフォルダを任意のスキンフォルダに配置する。(複数のスキンでカーソルやヒットサウンドを変更したい場合、それぞれにScriptsフォルダを配置してください。)
