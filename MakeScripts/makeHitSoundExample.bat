@@ -11,4 +11,4 @@ if not exist ..\HitSoundExample\ (
 
 endlocal
 popd
-pause
+exit /b

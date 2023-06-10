@@ -2,7 +2,7 @@
 Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡単に変えることができるバッチファイル。
 
 # ・ダウンロード
-[ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/OsuCursorChanger-v1.0.0-release.zip)からダウンロードして、任意のスキンフォルダにScriptsフォルダを配置することですぐに使い始めることができます。
+[ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/OsuCursorChanger-v1.0.1-release.zip)からダウンロードして、任意のスキンフォルダにScriptsフォルダを配置することですぐに使い始めることができます。
 
 # ・使い方
 1.zipファイルを[ダウンロード](#ダウンロード)して解凍する。
@@ -21,7 +21,7 @@ Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡�
 ```
 osu!
 |---Skins
-.   |---好きなスキン
+.   |---任意のスキン
 .   .   |---Cursors # 自分で作成。ここにカーソルを入れたフォルダを入れていく
 .   .   |   |---Cursor1
     .   |   |   |---cursor.png

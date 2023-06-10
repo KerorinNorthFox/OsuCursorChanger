@@ -12,4 +12,4 @@ if not exist ..\CursorExample\ (
 
 endlocal
 popd
-pause
+exit /b
