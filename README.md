@@ -17,7 +17,7 @@ Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡�
 
 4-2.Scriptsフォルダ内のOsuHitSoundChanger.batを実行し、変更したいヒットサウンドの名前に対応する番号を入力して決定するとヒットサウンドが変更される。
 
-### ファイル階層の例
+### フォルダ構成の例
 ```
 osu!
 |---Skins
@@ -30,11 +30,11 @@ osu!
         |   |---Cursor2
         |   ...
         |---HitSounds # 自分で作成。ここにヒットサウンドを入れたフォルダを入れていく
-        |   |---HitSounds1
+        |   |---HitSound1
         |   |   |---drum-hitclap.wav
         |   |   |---drum-hitfinish.wav
         |   |   ...
-        |   |---HitSounds2
+        |   |---HitSound2
         |   ...
         |---Scripts
         |   |---hitsounds.list # DO NOT CHANGE
