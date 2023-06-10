@@ -5,12 +5,8 @@ setlocal enabledelayedexpansion
 rem move Cursor files for backup if DefaultCursorBackup does not exist.
 if not exist ..\DefaultCursorBackup\ (
   md ..\DefaultCursorBackup
-  for /f "usebackq" %%f in (`dir /b ..\ ^| find "cursor"`) do (
-    echo "%%f" | find ".png" >nul
-    if not ERRORLEVEL 1 (
-      echo %%f
-      copy ..\%%f ..\DefaultCursorBackup\%%f >nul
-    )
+  for %%f in (..\cursor*png) do (
+    copy %%f ..\DefaultCursorBackup\%%~nf.png >nul
   )
 )
 
@@ -45,20 +41,17 @@ set i=1
 set cursorPath=..\DefaultCursorBackup
 for /d %%f in (..\Cursors\*) do (
   if %whichCursor% == !i! (
-    set cursorPath=%%f
+    set cursorPath="%%f"
   )
   set /a i=i+1
 )
 
-for /f "usebackq" %%f in (`dir /b ..\ ^| find "cursor"`) do (
-  echo "%%f" | find ".png" >nul
-  if not ERRORLEVEL 1 (
-    del ..\%%f >nul
-  )
+for %%f in (..\cursor*png) do (
+  del %%f >nul
 )
 
-for %%f in (%cursorPath%\*) do (
-  copy %%f ..\ >nul
+for %%f in (%cursorPath%\cursor*) do (
+  copy "%%f" ..\ >nul
 )
 
 :EndProgram
