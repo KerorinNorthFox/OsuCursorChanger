@@ -13,12 +13,17 @@ if not exist ..\DefaultCursorBackup\ (
 rem select Cursor
 :SelectCursor
 cls
-echo ^>Select cursor
+set dirname=
+for %%f in (..\) do set dirname=%%~dpf
+echo [Now location] :%dirname%
+echo;
+echo ~Select cursor~
 set i=0
 for /d %%f in (..\Cursors\*) do (
   set /a i=i+1
   echo !i!.%%~nf
 )
+echo;
 echo 0.default cursor
 echo q.Exit program
 

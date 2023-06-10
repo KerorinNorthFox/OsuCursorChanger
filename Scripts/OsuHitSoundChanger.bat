@@ -11,12 +11,17 @@ if not exist ..\DefaultHitSoundBackup\ (
 
 :SelectHitSound
 cls
-echo ^>Select hit sound
+set dirname=
+for %%f in (..\) do set dirname=%%~dpf
+echo [Now location] :%dirname%
+echo;
+echo ~Select hit sound~
 set i=0
 for /d %%f in (..\HitSounds\*) do (
   set /a i=i+1
   echo !i!.%%~nf
 )
+echo;
 echo 0.default hit sound
 echo q.Exit program
 
