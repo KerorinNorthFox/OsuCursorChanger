@@ -12,7 +12,7 @@ if not exist ..\DefaultHitSoundBackup\ (
 :SelectHitSound
 cls
 set dirname=
-for %%f in (..\) do set dirname=%%~dpf
+for %%f in (..\Scripts) do set dirname=%%~dpf
 echo [Now location] :%dirname%
 echo;
 echo ~Select hit sound~
@@ -32,9 +32,6 @@ if %whichHitSound% == q (
   goto :EndProgram
 )
 if %whichHitSound% gtr %i% (
-  set flag=true
-)
-if %flag% == true (
   goto :SelectHitSound
 )
 
