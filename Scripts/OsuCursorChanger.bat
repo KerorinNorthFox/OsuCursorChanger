@@ -14,7 +14,7 @@ rem select Cursor
 :SelectCursor
 cls
 set dirname=
-for %%f in (..\) do set dirname=%%~dpf
+for %%f in (..\Scripts) do set dirname=%%~dpf
 echo [Now location] :%dirname%
 echo;
 echo ~Select cursor~
@@ -35,9 +35,6 @@ if %whichCursor% == q (
   goto :EndProgram
 )
 if %whichCursor% gtr %i% (
-  set flag=true
-)
-if %flag% == true (
   goto :SelectCursor
 )
 
