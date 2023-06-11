@@ -25,7 +25,7 @@ https://github.com/KerorinNorthFox/OsuCursorChanger/assets/66837061/5eb21573-34d
 ```
 osu!/
 |---Skins/
-.   |---任意のスキン
+.   |---任意のスキン/
 .   .   |---Cursors/ # 自分で作成。ここにカーソルを入れたフォルダを入れていく
 .   .   |   |---Cursor1/
     .   |   |   |---cursor.png
