@@ -5,6 +5,8 @@ Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡�
 [ここ](https://github.com/KerorinNorthFox/OsuCursorChanger/releases/latest/download/OsuCursorChanger-v1.0.2-release.zip)からダウンロードして、任意のスキンフォルダにScriptsフォルダを配置することですぐに使い始めることができます。
 
 # ・使い方
+※下の動画を参考にしてフォルダを配置してください
+
 1.zipファイルを[ダウンロード](#ダウンロード)して解凍する。
 
 2.中身のScriptsフォルダを任意のスキンフォルダに配置する。(複数のスキンでカーソルやヒットサウンドを変更したい場合、それぞれにScriptsフォルダを配置してください。)
@@ -17,33 +19,34 @@ Osu!の任意のスキンで複数のカーソルとヒットサウンドを簡�
 
 4-2.Scriptsフォルダ内のOsuHitSoundChanger.batを実行し、変更したいヒットサウンドの名前に対応する番号を入力して決定するとヒットサウンドが変更される。
 
+https://github.com/KerorinNorthFox/OsuCursorChanger/assets/66837061/5eb21573-34d7-4a01-923b-99324a309ba0
+
 ### フォルダ構成の例
 ```
-osu!
-|---Skins
-.   |---任意のスキン
-.   .   |---Cursors # 自分で作成。ここにカーソルを入れたフォルダを入れていく
-.   .   |   |---Cursor1
+osu!/
+|---Skins/
+.   |---任意のスキン/
+.   .   |---Cursors/ # 自分で作成。ここにカーソルを入れたフォルダを入れていく
+.   .   |   |---Cursor1/
     .   |   |   |---cursor.png
         |   |   |---cursortrail.png
         |   |   ...
-        |   |---Cursor2
+        |   |---Cursor2/
         |   ...
-        |---HitSounds # 自分で作成。ここにヒットサウンドを入れたフォルダを入れていく
-        |   |---HitSound1
+        |---HitSounds/ # 自分で作成。ここにヒットサウンドを入れたフォルダを入れていく
+        |   |---HitSound1/
         |   |   |---drum-hitclap.wav
         |   |   |---drum-hitfinish.wav
         |   |   ...
-        |   |---HitSound2
+        |   |---HitSound2/
         |   ...
-        |---Scripts
+        |---Scripts/
         |   |---hitsounds.list # DO NOT CHANGE
         |   |---OsuCursorChanger.bat # これを実行してカーソルを変更する
         |   `---OsuHitSoundChanger.bat # これを実行してヒットサウンドを変更する
         ...
 ```
 
-https://github.com/KerorinNorthFox/OsuCursorChanger/assets/66837061/5eb21573-34d7-4a01-923b-99324a309ba0
 
 
 
