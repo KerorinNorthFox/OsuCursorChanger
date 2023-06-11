@@ -23,24 +23,24 @@ https://github.com/KerorinNorthFox/OsuCursorChanger/assets/66837061/5eb21573-34d
 
 ### フォルダ構成の例
 ```
-osu!
-|---Skins
+osu!/
+|---Skins/
 .   |---任意のスキン
-.   .   |---Cursors # 自分で作成。ここにカーソルを入れたフォルダを入れていく
-.   .   |   |---Cursor1
+.   .   |---Cursors/ # 自分で作成。ここにカーソルを入れたフォルダを入れていく
+.   .   |   |---Cursor1/
     .   |   |   |---cursor.png
         |   |   |---cursortrail.png
         |   |   ...
-        |   |---Cursor2
+        |   |---Cursor2/
         |   ...
-        |---HitSounds # 自分で作成。ここにヒットサウンドを入れたフォルダを入れていく
-        |   |---HitSound1
+        |---HitSounds/ # 自分で作成。ここにヒットサウンドを入れたフォルダを入れていく
+        |   |---HitSound1/
         |   |   |---drum-hitclap.wav
         |   |   |---drum-hitfinish.wav
         |   |   ...
-        |   |---HitSound2
+        |   |---HitSound2/
         |   ...
-        |---Scripts
+        |---Scripts/
         |   |---hitsounds.list # DO NOT CHANGE
         |   |---OsuCursorChanger.bat # これを実行してカーソルを変更する
         |   `---OsuHitSoundChanger.bat # これを実行してヒットサウンドを変更する
